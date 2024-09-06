@@ -2,6 +2,8 @@ package com.app.aoacore.services
 
 import android.content.Context
 import android.content.pm.PackageManager
+import android.util.Log
+import com.app.aoacore.R
 
 class CoreService {
     companion object {
@@ -13,12 +15,27 @@ class CoreService {
                 )
                 val bundle = appInfo.metaData
                 if (bundle != null) {
-                    bundle.getString("appId") ?: ""
+                    val appId = bundle.getString("appId") ?: ""
+                    appId.ifEmpty {
+                        Log.d(
+                            "CoreService",
+                            "AppsOnAirCore: " + context.getString(R.string.error_add_app_id)
+                        )
+                        ""
+                    }
                 } else {
+                    Log.d(
+                        "CoreService",
+                        "AppsOnAirCore: " + context.getString(R.string.error_add_meta_data)
+                    )
                     ""
                 }
             } catch (e: Exception) {
                 e.printStackTrace()
+                Log.d(
+                    "CoreService",
+                    "AppsOnAirCore: " + context.getString(R.string.error_something_wrong)
+                )
                 ""
             }
         }

@@ -34,13 +34,13 @@ class MainActivity : ComponentActivity() {
             }
         }
         val appId: String = CoreService.getAppId(this)
-        Log.d(TAG, "appId::::::$appId")
+        Log.d(TAG, "appId: $appId")
 
         val updateNetworkState = UpdateNetwork { isConnected ->
             if (isConnected) {
-                Log.d(TAG, "networkConnectivity::::::$isConnected")
+                Log.d(TAG, "hasNetworkConnection: $isConnected")
             } else {
-                Log.d(TAG, "networkConnectivity::::::$isConnected")
+                Log.d(TAG, "hasNetworkConnection: $isConnected")
             }
         }
 

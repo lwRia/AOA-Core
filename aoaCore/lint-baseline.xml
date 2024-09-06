@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues name="AGP (8.5.2)" by="lint 8.5.2" client="gradle" dependencies="false" format="6"
+    type="baseline" variant="all" version="8.5.2">
+
+    <issue errorLine1="agp = &quot;8.5.2&quot;"
+        errorLine2="      ~~~~~~~"
+        id="AndroidGradlePluginVersion" message="A newer version of com.android.application than 8.5.2 is available: 8.6.0">
+        <location column="7" file="$HOME/Desktop/AOACore/gradle/libs.versions.toml" line="2" />
+    </issue>
+
+    <issue errorLine1="agp = &quot;8.5.2&quot;"
+        errorLine2="      ~~~~~~~"
+        id="AndroidGradlePluginVersion" message="A newer version of com.android.application than 8.5.2 is available: 8.6.0">
+        <location column="7" file="$HOME/Desktop/AOACore/gradle/libs.versions.toml" line="2" />
+    </issue>
+
+    <issue errorLine1="agp = &quot;8.5.2&quot;"
+        errorLine2="      ~~~~~~~"
+        id="AndroidGradlePluginVersion" message="A newer version of com.android.application than 8.5.2 is available: 8.6.0">
+        <location column="7" file="$HOME/Desktop/AOACore/gradle/libs.versions.toml" line="2" />
+    </issue>
+
+    <issue errorLine1="agp = &quot;8.5.2&quot;"
+        errorLine2="      ~~~~~~~"
+        id="AndroidGradlePluginVersion" message="A newer version of com.android.library than 8.5.2 is available: 8.6.0">
+        <location column="7" file="$HOME/Desktop/AOACore/gradle/libs.versions.toml" line="2" />
+    </issue>
+
+    <issue errorLine1="agp = &quot;8.5.2&quot;"
+        errorLine2="      ~~~~~~~"
+        id="AndroidGradlePluginVersion" message="A newer version of com.android.library than 8.5.2 is available: 8.6.0">
+        <location column="7" file="$HOME/Desktop/AOACore/gradle/libs.versions.toml" line="2" />
+    </issue>
+
+    <issue errorLine1="agp = &quot;8.5.2&quot;"
+        errorLine2="      ~~~~~~~"
+        id="AndroidGradlePluginVersion" message="A newer version of com.android.library than 8.5.2 is available: 8.6.0">
+        <location column="7" file="$HOME/Desktop/AOACore/gradle/libs.versions.toml" line="2" />
+    </issue>
+
+    <issue errorLine1="gradle = &quot;7.0.4&quot;"
+        errorLine2="         ~~~~~~~"
+        id="AndroidGradlePluginVersion" message="A newer version of com.android.tools.build:gradle than 7.0.4 is available: 8.6.0">
+        <location column="10" file="$HOME/Desktop/AOACore/gradle/libs.versions.toml" line="4" />
+    </issue>
+
+    <issue errorLine1="gradle = &quot;7.0.4&quot;"
+        errorLine2="         ~~~~~~~"
+        id="AndroidGradlePluginVersion" message="A newer version of com.android.tools.build:gradle than 7.0.4 is available: 8.6.0">
+        <location column="10" file="$HOME/Desktop/AOACore/gradle/libs.versions.toml" line="4" />
+    </issue>
+
+    <issue errorLine1="gradle = &quot;7.0.4&quot;"
+        errorLine2="         ~~~~~~~"
+        id="AndroidGradlePluginVersion" message="A newer version of com.android.tools.build:gradle than 7.0.4 is available: 8.6.0">
+        <location column="10" file="$HOME/Desktop/AOACore/gradle/libs.versions.toml" line="4" />
+    </issue>
+
+</issues>
