@@ -11,6 +11,7 @@ import com.app.aoacore.interfaces.UpdateNetwork
 
 class NetworkService {
     companion object {
+        @JvmStatic
         @SuppressLint("ObsoleteSdkInt")
         fun checkConnectivity(context: Context, updateNetworkState: UpdateNetwork) {
             val networkCallback = object : ConnectivityManager.NetworkCallback() {
