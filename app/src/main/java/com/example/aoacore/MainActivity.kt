@@ -18,6 +18,7 @@ import com.app.aoacore.services.NetworkService
 import com.example.aoacore.ui.theme.AOACoreTheme
 
 class MainActivity : ComponentActivity() {
+    @Suppress("PrivatePropertyName")
     private val TAG = "MainActivity"
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,11 +38,7 @@ class MainActivity : ComponentActivity() {
         Log.d(TAG, "appId: $appId")
 
         val updateNetworkState = UpdateNetwork { isConnected ->
-            if (isConnected) {
-                Log.d(TAG, "hasNetworkConnection: $isConnected")
-            } else {
-                Log.d(TAG, "hasNetworkConnection: $isConnected")
-            }
+            Log.d(TAG, "hasNetworkConnection: $isConnected")
         }
 
         NetworkService.checkConnectivity(this, updateNetworkState)

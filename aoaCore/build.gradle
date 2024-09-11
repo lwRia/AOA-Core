@@ -10,7 +10,7 @@ android {
     defaultConfig {
         minSdk 24
         versionCode 1
-        versionName "1.0.2"
+        versionName "1.0.3"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
     }
@@ -48,7 +48,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.app'
                 artifactId = 'aoacore'
-                version = '1.0.2'
+                version = '1.0.3'
             }
         }
     }
